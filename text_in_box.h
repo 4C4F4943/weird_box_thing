@@ -25,3 +25,4 @@ string text_in_box(string the_thing,string color1, string color2){
     for(int j = 0; j < the_length+ 21; j++){if(j == the_length + 20){text_background("|",color1);cout<<endl;}else if(j == 0){text_background("|",color1);}else{text_background("_",color1);}}
     for(int j = 0; j < the_length+ 21; j++){if(j == the_length + 20){text_background("|",color1);cout<<endl;}else if(j == 0){text_background("|",color1);}else{text_background("_",color1);}}
 return 0;
+}
